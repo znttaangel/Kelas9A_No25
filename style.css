@@ -1,36 +1,69 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-ul {
+nav.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background: navy;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    display: flex;
+    z-index: 1000;
 }
 
-li {
-    float: left;
-}
-
-li a {
+nav.navbar li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover{
+nav.navbar li a:hover {
     background: lime;
     color: black;
 }
 
-h1{
-    margin-top: 50px;
+nav.navbar li a.active {
+    background: #3fe1bd;
+    color: black;
+}
+
+.wadah-utama {
+    margin-top: 60px;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #cbd5e1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
