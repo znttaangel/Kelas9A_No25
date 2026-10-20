@@ -25,12 +25,12 @@ nav.navbar li a {
 }
 
 nav.navbar li a:hover {
-    background: lime;
+    background: rgb(25, 85, 248);
     color: black;
 }
 
 nav.navbar li a.active {
-    background: #3fe1bd;
+    background: #3fa6e1;
     color: black;
 }
 
