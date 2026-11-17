@@ -67,3 +67,56 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+.header-halaman {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.header-halaman h1 {
+    color: navy;
+    margin: 0 0 10px 0;
+}
+
+.baris {
+    display: flex;
+    gap: 20px;
+}
+
+.kolom {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.kiri {
+    flex: 25%;
+}
+
+.tengah {
+    flex: 50%;
+}
+
+.kanan {
+    flex: 25%;
+}
+
+.kolom img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
